@@ -1,5 +1,5 @@
 import { Counter } from "./components/counter/counter";
-import { Logo } from "./components/logo/logo";
+import { LexicalComposer } from "./components/lexical/LexicalComposer";
 
 export default () => {
   return (
@@ -9,8 +9,9 @@ export default () => {
         <title>Qwik Blank App</title>
       </head>
       <body>
-        <Logo />
-        <Counter />
+        <LexicalComposer>
+          hello
+        </LexicalComposer>
       </body>
     </>
   );
